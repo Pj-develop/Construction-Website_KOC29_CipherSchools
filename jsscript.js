@@ -11,7 +11,7 @@ button.addEventListener("click",function(){
 	var correctpass="Admin123";
 	if(email==correctemail && pass===correctpass && username==correctusername){
 		window.alert("Login Successfully")
-		window.alert("You are Now the Admin & Your Permissions have been upgarded to Super User")
+		window.alert("You are Now the Admin & Your Permissions have been upgraded to Super User")
 		window.open("index.html");
 	}
 	else{
